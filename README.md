@@ -1,7 +1,7 @@
 # airline-api
 Strapi project for creating a Content Management System (CMS). The system features a database of Airports, Flights, and Airlines.
 
-This project implements an API for flight information. Strapi was used to create and publish the API. The project also demonstrates the use of containers and how to run code inside them. This is a useful exercise for data engineers.
+This project implements an API for flight information. Strapi was used to create and publish the API. The project also demonstrates the use of containers and how to run code inside them. The testing for the API was done using Postman: the collection of requests is saved inside the postman folder. Finally, code was generated in Python to send GET requests. The code is included in the vsc folder. 
 
 Collection Types:
 
