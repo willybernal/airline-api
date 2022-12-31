@@ -1,2 +1,2 @@
 # airline-api
-Strapi project of Flights, Airlines, and Airports.
+Strapi project for creating a Content Management System (CMS). The system features a database of Airports, Flights, and Airlines.
