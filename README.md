@@ -23,6 +23,7 @@ Airport
 |City        | Text |Yes     |
 
 Flight:
+
 |Field Name         | Type                                                                      |Required|
 |-------------------|---------------------------------------------------------------------------|--------|
 |FlightNumber       | Text                                                                      |Yes     |
@@ -30,3 +31,5 @@ Flight:
 |Seats              | Integer                                                                   |Yes     |
 |OriginAirport      | Relation to Collection Type Airport. Flight origin has one airport.       |Yes     |
 |DestinationAirport | Relation to Collection Type Airport. Flight destination has one airport.  |Yes     |
+
+
