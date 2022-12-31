@@ -1,2 +1,32 @@
 # airline-api
 Strapi project for creating a Content Management System (CMS). The system features a database of Airports, Flights, and Airlines.
+
+This project implements an API for flight information. Strapi was used to create and publish the API. The project also demonstrates the use of containers and how to run code inside them. This is a useful exercise for data engineers.
+
+Collection Types:
+
+Airline
+
+|Field Name | Type |Required|
+|-----------|------|--------|
+|Name       | Text |Yes     |
+
+
+Airport
+
+|Field Name  | Type |Required|
+|------------|------|--------|
+|AirportCode | Text |Yes     |
+|AirportName | Text |Yes     |
+|Country     | Text |Yes     |
+|State       | Text |Yes     |
+|City        | Text |Yes     |
+
+Flight:
+|Field Name         | Type                                                                      |Required|
+|-------------------|---------------------------------------------------------------------------|--------|
+|FlightNumber       | Text                                                                      |Yes     |
+|Airline            | Relation to Collection Type Airline. Flight has one airline.              |Yes     |
+|Seats              | Integer                                                                   |Yes     |
+|OriginAirport      | Relation to Collection Type Airport. Flight origin has one airport.       |Yes     |
+|DestinationAirport | Relation to Collection Type Airport. Flight destination has one airport.  |Yes     |
